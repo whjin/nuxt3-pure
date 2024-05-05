@@ -5,7 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev --host --open",
-    "generate": "nuxt generate",
+    "deploy": "npm run build && nuxt generate",
     "preview": "nuxt preview --open",
     "postinstall": "nuxt prepare"
   },

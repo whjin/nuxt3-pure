@@ -1,3 +1,6 @@
 export default defineNuxtConfig({
-  devtools: { enabled: true }
-})
+  devtools: { enabled: true },
+  app: {
+    buildAssetsDir: "/static/",
+  },
+});
