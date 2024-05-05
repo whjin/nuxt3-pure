@@ -1,1 +1,0 @@
-import{_ as s,c as o,n as t,o as r}from"./DbRKWBaB.js";const n={props:{},setup(e){}},a={class:"container"};function c(e,p,_,d,l,f){return r(),o("div",a,[t(e.$slots,"default")])}const u=s(n,[["render",c]]);export{u as default};
