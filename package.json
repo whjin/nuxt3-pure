@@ -5,13 +5,18 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev --host --open",
-    "deploy": "npm run build && nuxt generate",
-    "preview": "nuxt preview --open",
-    "postinstall": "nuxt prepare"
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages --dotfiles -d dist"
   },
   "dependencies": {
     "nuxt": "^3.11.2",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "less": "^4.2.0"
   }
 }

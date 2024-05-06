@@ -1,6 +1,8 @@
 <template>
   <div class="container">
-    <slot />
+    <NuxtLink to="/">
+      <h1>Home</h1>
+    </NuxtLink>
   </div>
 </template>
 
@@ -9,7 +11,7 @@ import { ref, reactive } from "vue";
 
 export default {
   props: {},
-  setup (props) { }
+  setup (props) { },
 };
 </script>
 
