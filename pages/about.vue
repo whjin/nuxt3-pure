@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <NuxtLink to="/">
-      <h1>Home</h1>
+      <h1>Back Home</h1>
     </NuxtLink>
   </div>
 </template>

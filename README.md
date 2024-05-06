@@ -1,75 +1,28 @@
-# Nuxt 3 Minimal Starter
+# 一键构建部署
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+```shell
+#!/usr/bin/env sh
 
-## Setup
+# 发生错误时终止
+set -e
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
+# 构建
 npm run build
 
-# pnpm
-pnpm run build
+npm run generate
 
-# yarn
-yarn build
+# gh-pages部署
+npm run deploy
 
-# bun
-bun run build
+# 提交main主分支
+git add .
+git commit -m "提交更新main分支"
+git push origin main
+
+# 按任意键关闭
+echo "按任意键关闭"
+read -n 1
+
+# 关闭sh脚本
+exit 0
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
