@@ -1,1 +1,0 @@
-import{_ as e}from"./D5lRq9xv.js";import{_ as s,c as n,b as a,w as c,o as _,a as r}from"./BN8Bp1bk.js";const p={props:{},setup(t){}},i={class:"container"},d=r("h1",null,"About",-1);function u(t,f,l,m,x,h){const o=e;return _(),n("div",i,[a(o,{to:"/about"},{default:c(()=>[d]),_:1})])}const k=s(p,[["render",u]]);export{k as default};
