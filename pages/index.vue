@@ -1,8 +1,12 @@
 <template>
   <div class="container">
-    <NuxtLink to="/about">
-      <h1>Go to About</h1>
-    </NuxtLink>
+    <h1>Index Page</h1>
+    <br>
+    <NuxtLink to="/user-admin/1">/user-admin/1</NuxtLink>
+    <br>
+    <NuxtLink to="/parent/child">/parent/child</NuxtLink>
+    <br>
+    <NuxtLink to="/about">/about</NuxtLink>
   </div>
 </template>
 
@@ -11,7 +15,7 @@ import { ref, reactive } from "vue";
 
 export default {
   props: {},
-  setup (props) { }
+  setup (props) { },
 };
 </script>
 
