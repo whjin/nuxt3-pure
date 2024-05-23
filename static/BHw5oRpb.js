@@ -1,0 +1,1 @@
+import{_ as o}from"./D-gARaAE.js";import{_ as s,c as n,b as a,w as c,a as _,o as r,d as p}from"./Cq2_8FhX.js";const d={props:{},setup(e){}},i={class:"container"},l=_("h1",null,"Child/Index Page",-1);function m(e,u,x,f,h,N){const t=o;return r(),n("div",i,[l,a(t,{to:"/"},{default:c(()=>[p("/home")]),_:1})])}const B=s(d,[["render",m]]);export{B as default};

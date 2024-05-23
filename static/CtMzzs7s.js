@@ -1,1 +1,0 @@
-import{_ as e}from"./MSGc2Tif.js";import{_ as s,c as n,b as a,w as c,o as _,a as r}from"./BiCTEpkL.js";const p={props:{},setup(o){}},i={class:"container"},d=r("h1",null,"Go to About",-1);function u(o,f,l,m,x,h){const t=e;return _(),n("div",i,[a(t,{to:"/about"},{default:c(()=>[d]),_:1})])}const k=s(p,[["render",u]]);export{k as default};
