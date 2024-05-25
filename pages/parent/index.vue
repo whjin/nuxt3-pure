@@ -1,7 +1,6 @@
 <template>
   <div class="container">
-    <h1>Child/Index Page</h1>
-    <NuxtLink to="/">/home</NuxtLink>
+    <h1>Parent Page</h1>
   </div>
 </template>
 

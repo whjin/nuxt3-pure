@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <h1>About Page</h1>
     <NuxtLayout name="custom">
       <template #title>
         <h3>这是一个标题</h3>

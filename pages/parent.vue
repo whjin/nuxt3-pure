@@ -1,8 +1,9 @@
 <template>
   <div class="container">
-    <h1>Parent Page</h1>
-    <NuxtPage></NuxtPage>
-    <NuxtLayout></NuxtLayout>
+    <NuxtLayout>
+      <h1>Parent/Child Page</h1>
+      <NuxtPage></NuxtPage>
+    </NuxtLayout>
   </div>
 </template>
 
@@ -11,7 +12,7 @@ import { ref, reactive } from "vue";
 
 export default {
   props: {},
-  setup (props) { }
+  setup (props) { },
 };
 </script>
 

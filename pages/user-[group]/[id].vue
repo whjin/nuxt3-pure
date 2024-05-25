@@ -1,9 +1,11 @@
 <template>
   <div class="container">
-    <h1>User Page</h1>
-    <p>group: {{ $route.params.group }}</p>
-    <p>id: {{ $route.params.id }}</p>
-    <NuxtLink to="/">/home</NuxtLink>
+    <NuxtLayout name="custom">
+      <p>
+        <i><label>group：</label>{{ $route.params.group }}</i>
+        <i><label>id：</label>{{ $route.params.id }}</i>
+      </p>
+    </NuxtLayout>
   </div>
 </template>
 

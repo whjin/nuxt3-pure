@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <h1>Child Page</h1>
-    <slot></slot>
   </div>
 </template>
 

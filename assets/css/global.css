@@ -1,3 +1,25 @@
 body {
   text-align: center;
 }
+
+a {
+  display: inline-block;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  padding: 3px 8px;
+  margin: 0 12px;
+}
+
+i {
+  display: block;
+  width: 120px;
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
+i > label {
+  display: inline-block;
+  width: 60px;
+  text-align: right;
+}
