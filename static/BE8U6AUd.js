@@ -1,1 +1,0 @@
-import{_ as s,c as o,I as t,a,o as c}from"./Cq2_8FhX.js";const r={props:{},setup(e){}},n={class:"container"},p=a("h1",null,"Child Page",-1);function d(e,l,_,i,f,u){return c(),o("div",n,[p,t(e.$slots,"default")])}const $=s(r,[["render",d]]);export{$ as default};
