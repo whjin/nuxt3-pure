@@ -1,16 +1,17 @@
 <template>
-  <div class="container">
+  <div class="footer-container">
     <h3>Footer Component</h3>
+    <p>{{ text }}</p>
   </div>
 </template>
 
-<script>
+<script setup>
 import { ref, reactive } from "vue";
 
-export default {
-  props: {},
-  setup (props) { }
-};
+const { $hello } = useNuxtApp();
+const text = $hello();
 </script>
 
-<style lang="less"></style>
+<style lang="less">
+@import "../assets/less//index.less";
+</style>

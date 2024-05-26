@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="home-container">
     <Router></Router>
   </div>
 </template>
@@ -13,4 +13,6 @@ export default {
 };
 </script>
 
-<style lang="less"></style>
+<style lang="less">
+@import "../assets/less/index.less";
+</style>
