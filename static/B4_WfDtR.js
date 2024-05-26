@@ -1,1 +1,0 @@
-import{_ as s,c as o,o as t,a as c}from"./DYdLsu83.js";const n={props:{},setup(e){}},a={class:"container"},r=c("h1",null,"Parent Page",-1),_=[r];function p(e,d,i,l,f,u){return t(),o("div",a,_)}const m=s(n,[["render",p]]);export{m as default};

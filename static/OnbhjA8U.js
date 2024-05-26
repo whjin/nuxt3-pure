@@ -1,1 +1,0 @@
-import{_ as n}from"./D0q_yTTw.js";import{_ as c,c as a,b as _,w as t,o as r,a as o}from"./DYdLsu83.js";const p={props:{},setup(e){}},i={class:"container"},u=o("h3",null,"这是一个标题",-1),d=o("p",null,"这是一段文本...",-1);function l(e,m,f,h,x,$){const s=n;return r(),a("div",i,[_(s,{name:"custom"},{title:t(()=>[u]),content:t(()=>[d]),_:1})])}const b=c(p,[["render",l]]);export{b as default};

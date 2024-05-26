@@ -1,0 +1,1 @@
+import{_ as o}from"./YgVunzPi.js";import{_ as s,c as a,b as n,w as c,a2 as r,a as _,o as p,d}from"./CdZljAeM.js";const l={props:{},setup(e){}},u={class:"container"},f=_("p",null,"通用布局页，default.vue",-1);function i(e,m,x,h,$,N){const t=o;return p(),a("div",u,[f,n(t,{to:"/"},{default:c(()=>[d("/home")]),_:1}),r(e.$slots,"default")])}const V=s(l,[["render",i]]);export{V as default};
